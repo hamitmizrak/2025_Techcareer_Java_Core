@@ -1,6 +1,6 @@
 package com.hamitmizrak;
 
-public class _03_Variable {
+public class _03_1_Variable {
 
     /* Variable : camelCase, 40 karakter yazabiliriz.*/
 
