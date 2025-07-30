@@ -1,0 +1,60 @@
+
+# 1.HAFTA
+1.DERS (10 Haziran 2025 Salı)
+--------------------------------------------------------------
+--------------------------------------------------------------
+1.1- Java Nedir ?
+
+
+2.DERS (? Haziran 2025 Salı)
+--------------------------------------------------------------
+--------------------------------------------------------------
+2.1- IDE ile Editor arasındaki farklar ?
+2.2- Framework ile Libraries  Arasındaki farklar ?
+2.4- Java Nasıl Bir Dildir ?
+2.5- camelCase Nedir ?
+2.6- PascalCase Nedir ?
+2.7- kebap-case Nedir ?
+2.7- snace_case Nedir ?
+2.8- Java'daki genel kurallar nelerdir ?
+2.9-  JVM Nedir ?
+2.10- JRE Nedir ?
+2.11- JDK Nedir ?
+
+
+2.DERS (? Haziran 2025 Salı)
+--------------------------------------------------------------
+--------------------------------------------------------------
+2.12- Garbarage Collection Nedir ?
+2.13- Binary, Octal, Decimal, Hexadecimal Nedir ?
+2.14- Primitive Types Nedir ?
+2.15- Wrapper Type Nedir ?
+2.16- Stack Memory Nedir ?
+2.17- Heap Memory Nedir ?
+2.18- Java Referances Nedir ?
+2.19- Javada OOP Nedir ?
+2.20- Java %100 OOP midir ?
+2.21- Maven Nedir ?
+2.22- pom.xml nedir ?
+2.23- Data types  nedir ?
+2.24- jar ile war arasındaki farklar nelerdir ?
+2.25- Java8 gelen özellikler nelerdir ?
+
+
+###########################################################
+# 2.HAFTA
+2.1- parametre ile argüman arasındaki fark ?
+
+2.1- String instance1="Merhabalar"; ile  String instance2= new String ("Merhabalar2") arasındaki farklar nelerdir ?
+
+2.1 Integer.valueOf("44") ile Integer.parseInt("44") bunlar arasındaki farklar ?
+
+2.1 isEmpty() - isBlank()
+
+2.1 For ile While arasındaki fark ?
+
+###########################################################
+# 3.HAFTA
+3.1 - Javadaki Array konusunda clone verisini değiştirdiğimizde original veri değişir mi ?
+
+3.2 - Compile-Time(Derleme Zamanı) - Run-Time(Çalışma Zamanı) bunlar nelerdir  ? aralarındaki farklar ?

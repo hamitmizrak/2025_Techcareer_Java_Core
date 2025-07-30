@@ -8,13 +8,14 @@ public class _04_1_Primitive {
      2-) Hızlıdır
      3-) null değer alamaz
      4-) OOP için bunu boxing yapmak zorundayız.
+     5-) 8 tane primitive type vardır.
      */
     public static void main(String[] args) {
 
         // Tamsayılar
         byte primitiveByte=127;           // -128   <=SAYI <= +127   (1 Byte = 8 bit 2^7)
-        short primitiveShort=128;         // -32768 <=SAYI <= 32767  (2 Byte )
-        int primitiveInt=445525125;       // -2³¹   <=SAYI <= 2³¹-1  (4 Byte )
+        short primitiveShort=128;         // -32768 <=SAYI <= 32767  (2 Byte = 16 bit 2^15 )
+        int primitiveInt=445525125;       // -2³¹   <=SAYI <= 2³¹-1  (4 Byte = 8*4=32 bit, 32-1)
         long primitiveLong=4455251252L;   // -2⁶³   <=SAYI <= 2⁶³-1  (8 Byte )
 
         // Virgüllü Sayı
