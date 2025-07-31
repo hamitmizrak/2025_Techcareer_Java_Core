@@ -2,7 +2,8 @@ package com.hamitmizrak;
 
 public class _12_Conditional_4_SwitchCase {
 
-    public static void conditional1(int number) {
+    // Klasik if, else if, else
+    public static void classicIfElseCondition(int number) {
         if (number == 0) {
             System.out.println("Sayı sıfır");
         } else if (number == 1) {
@@ -20,7 +21,9 @@ public class _12_Conditional_4_SwitchCase {
         }
     }
 
-    public static void conditional2(int number) {
+    // Switch case
+    // normal if,elseif 'e göre daha hızlı çalışır.
+    public static void switchCaseCondition(int number) {
         switch (number){
             case 0:
                 System.out.println("Sayı sıfır");
@@ -46,12 +49,32 @@ public class _12_Conditional_4_SwitchCase {
         }
     }
 
-    // rule switch
+    // Java 14+ ile birlikte gelen switch expression (yani rule‑based switch) kullanarak
+    // aynı örneği daha modern ve kısa bir şekilde yazabilirsin.
+    // Ne değişti?
+    // -> (arrow) kullanılıyor.
+    // Artık break yazmaya gerek yok.
+    // Her case otomatik sonlanır.
+    // Kod daha okunaklı ve kısa.
+    public static void ruleBasedSwitchconditional(int number) {
+        // Java 14+ switch expression (arrow syntax)
+        switch (number) {
+            case 0 -> System.out.println("Sayı sıfır");
+            case 1 -> {System.out.println("Sayı 1");}
+            case 2 -> System.out.println("Sayı 2");
+            case 3 -> System.out.println("Sayı 3");
+            case 4 -> System.out.println("Sayı 4");
+            case 5 -> System.out.println("Sayı 5");
+            default -> System.out.println("Sayı 0<=X<=5 dışında");
+        }
+    }
+
 
     // PSVM
     public static void main(String[] args) {
         int number = 5;
-        conditional1(number);
-        conditional2(number);
+        classicIfElseCondition(number);
+        switchCaseCondition(number);
+        ruleBasedSwitchconditional(number);
     }
 }

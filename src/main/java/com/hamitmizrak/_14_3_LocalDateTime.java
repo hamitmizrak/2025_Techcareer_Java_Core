@@ -27,6 +27,7 @@ public class _14_3_LocalDateTime {
         System.out.println(now.format(dateTimeFormatter));
     }
 
+     // LocalDate Set
     public static void localDateSet() {
         Locale locale = new Locale("tr", "TR");
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MMMM-yyyy HH:mm:ss", locale);

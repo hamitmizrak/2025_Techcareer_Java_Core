@@ -1,6 +1,8 @@
 package com.hamitmizrak;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Locale;
 
 
 /**
@@ -33,6 +35,22 @@ public class _14_2_Calendar {
     }
 
     // Formatter
+    public static void calendarFormatterTutorials() {
+
+        // 1. Türkçe locale ayarı
+        Locale locale = new Locale("tr", "TR");
+
+        // 2. Format belirliyoruz (LocalDateTime ile aynı format)
+        // yyyy-MMMM-dd HH:mm:ss  (Örn: 2025-Temmuz-31 15:24:50)
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MMMM-dd HH:mm:ss", locale);
+
+        // 3. Şu anki zamanı Calendar sınıfından alıyoruz
+        Calendar calendar = Calendar.getInstance();
+
+        // 4. Calendar'dan Date objesi alıp formatlıyoruz
+        System.out.println(calendar.getTime()); // Varsayılan format
+        System.out.println(sdf.format(calendar.getTime())); // Formatlanmış çıktı
+    }
 
     public static void main(String[] args) {
         calendarDate();
