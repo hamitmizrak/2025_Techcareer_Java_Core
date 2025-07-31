@@ -1,6 +1,6 @@
 package com.hamitmizrak.tutorials.othercourse._03_week;
 
-import com.hamitmizrak.utilty.SpecialColor;
+import com.hamitmizrak.SpecialColor;
 
 public class _05_4_MatrixArray {
 

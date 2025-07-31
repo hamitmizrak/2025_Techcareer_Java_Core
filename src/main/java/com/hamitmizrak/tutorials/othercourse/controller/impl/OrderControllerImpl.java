@@ -1,10 +1,12 @@
 package com.hamitmizrak.tutorials.othercourse.controller.impl;
 
-import com.hamitmizrak.dao.IAllMethod;
+
+import com.hamitmizrak.tutorials.othercourse.dao.IAllMethod;
 import com.hamitmizrak.tutorials.othercourse.dto.BaseDto;
 import com.hamitmizrak.tutorials.othercourse.dto.CustomerDto;
 import com.hamitmizrak.tutorials.othercourse.dto.ProductDto;
-import com.hamitmizrak.utilty.Loggable;
+
+import com.hamitmizrak.tutorials.othercourse.utilty.Loggable;
 import lombok.*;
 
 import java.util.List;

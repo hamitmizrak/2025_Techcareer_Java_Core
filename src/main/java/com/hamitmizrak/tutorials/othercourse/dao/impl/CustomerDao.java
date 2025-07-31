@@ -1,10 +1,12 @@
 package com.hamitmizrak.tutorials.othercourse.dao.impl;
 
-import com.hamitmizrak.dao.IFile;
+
+import com.hamitmizrak.SpecialColor;
+import com.hamitmizrak.tutorials.othercourse.dao.IFile;
 import com.hamitmizrak.tutorials.othercourse.dto.CustomerDto;
-import com.hamitmizrak.mysql.IDbConnectionInterface;
-import com.hamitmizrak.utilty.FilePath;
-import com.hamitmizrak.utilty.SpecialColor;
+import com.hamitmizrak.tutorials.othercourse.mysql.IDbConnectionInterface;
+import com.hamitmizrak.tutorials.othercourse.utilty.FilePath;
+
 
 import java.io.*;
 import java.sql.Connection;

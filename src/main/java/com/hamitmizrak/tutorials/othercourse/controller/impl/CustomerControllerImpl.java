@@ -1,7 +1,8 @@
 package com.hamitmizrak.tutorials.othercourse.controller.impl;
 
 import com.hamitmizrak.tutorials.othercourse.dto.CustomerDto;
-import com.hamitmizrak.services.CustomerService;
+import com.hamitmizrak.tutorials.othercourse.services.CustomerService;
+
 
 import java.util.List;
 

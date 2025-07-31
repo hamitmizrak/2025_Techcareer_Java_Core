@@ -1,6 +1,7 @@
 package com.hamitmizrak.tutorials.othercourse.dto;
 
-import com.hamitmizrak.utilty.Loggable;
+
+import com.hamitmizrak.tutorials.othercourse.utilty.Loggable;
 import lombok.*;
 
 import java.io.Serializable;

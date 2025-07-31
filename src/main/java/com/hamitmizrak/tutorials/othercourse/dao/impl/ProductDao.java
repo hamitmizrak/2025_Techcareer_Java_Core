@@ -1,9 +1,11 @@
 package com.hamitmizrak.tutorials.othercourse.dao.impl;
 
-import com.hamitmizrak.dao.IFile;
+
+import com.hamitmizrak.SpecialColor;
+import com.hamitmizrak.tutorials.othercourse.dao.IFile;
 import com.hamitmizrak.tutorials.othercourse.dto.ProductDto;
-import com.hamitmizrak.utilty.FilePath;
-import com.hamitmizrak.utilty.SpecialColor;
+import com.hamitmizrak.tutorials.othercourse.utilty.FilePath;
+
 
 import java.io.*;
 import java.util.ArrayList;

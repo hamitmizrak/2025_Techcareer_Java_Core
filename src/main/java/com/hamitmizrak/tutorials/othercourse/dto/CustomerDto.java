@@ -4,9 +4,9 @@ package com.hamitmizrak.tutorials.othercourse.dto;
 // Bir müşteri nesnesini temsil eder
 // @_01_Loggable anostasyonu ile işaretliyecektir.
 
-import com.hamitmizrak.utilty.Loggable;
-import com.hamitmizrak.dao.IFile;
-import com.hamitmizrak.utilty.SpecialColor;
+
+import com.hamitmizrak.SpecialColor;
+import com.hamitmizrak.tutorials.othercourse.utilty.Loggable;
 import lombok.*;
 
 import java.util.ArrayList;

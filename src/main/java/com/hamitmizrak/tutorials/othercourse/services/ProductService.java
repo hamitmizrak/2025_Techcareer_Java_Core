@@ -1,6 +1,7 @@
 package com.hamitmizrak.tutorials.othercourse.services;
 
-import com.hamitmizrak.dao.impl.ProductDao;
+
+import com.hamitmizrak.tutorials.othercourse.dao.impl.ProductDao;
 import com.hamitmizrak.tutorials.othercourse.dto.CustomerDto;
 import com.hamitmizrak.tutorials.othercourse.dto.ProductDto;
 

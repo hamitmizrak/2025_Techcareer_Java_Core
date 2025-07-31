@@ -1,6 +1,7 @@
 package com.hamitmizrak.tutorials.othercourse.services;
 
-import com.hamitmizrak.dao.impl.CustomerDao;
+
+import com.hamitmizrak.tutorials.othercourse.dao.impl.CustomerDao;
 import com.hamitmizrak.tutorials.othercourse.dto.CustomerDto;
 
 import java.util.List;

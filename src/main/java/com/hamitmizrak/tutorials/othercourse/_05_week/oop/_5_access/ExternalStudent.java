@@ -1,6 +1,7 @@
 package com.hamitmizrak.tutorials.othercourse._05_week.oop._5_access;
 
-import com.hamitmizrak._05_week.oop._4_abstractx.Person;
+
+import com.hamitmizrak.tutorials.othercourse._05_week.oop._4_abstractx.Person;
 
 public class ExternalStudent extends Person {
 

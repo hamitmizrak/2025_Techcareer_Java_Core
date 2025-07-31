@@ -1,6 +1,6 @@
 package com.hamitmizrak.tutorials.othercourse._04_week;
 
-import com.hamitmizrak.utilty.SpecialColor;
+import com.hamitmizrak.SpecialColor;
 
 import java.io.BufferedWriter;
 import java.io.File;

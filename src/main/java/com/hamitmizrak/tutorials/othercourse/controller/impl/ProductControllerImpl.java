@@ -1,9 +1,10 @@
 package com.hamitmizrak.tutorials.othercourse.controller.impl;
 
+import com.hamitmizrak.SpecialColor;
 import com.hamitmizrak.tutorials.othercourse.dto.CustomerDto;
 import com.hamitmizrak.tutorials.othercourse.dto.ProductDto;
-import com.hamitmizrak.services.ProductService;
-import com.hamitmizrak.utilty.SpecialColor;
+import com.hamitmizrak.tutorials.othercourse.services.ProductService;
+
 
 import java.util.List;
 

@@ -1,7 +1,8 @@
 package com.hamitmizrak.tutorials.othercourse;
 
-import com.hamitmizrak.controller.impl.CustomerControllerImpl;
-import com.hamitmizrak.controller.impl.ProductControllerImpl;
+
+import com.hamitmizrak.tutorials.othercourse.controller.impl.CustomerControllerImpl;
+import com.hamitmizrak.tutorials.othercourse.controller.impl.ProductControllerImpl;
 import com.hamitmizrak.tutorials.othercourse.dto.CustomerDto;
 import com.hamitmizrak.tutorials.othercourse.dto.ProductDto;
 

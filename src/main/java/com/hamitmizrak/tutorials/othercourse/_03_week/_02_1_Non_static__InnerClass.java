@@ -1,6 +1,6 @@
 package com.hamitmizrak.tutorials.othercourse._03_week;
 
-import com.hamitmizrak.utilty.SpecialColor;
+import com.hamitmizrak.SpecialColor;
 
 /**
  SN      Tür	                                  Açıklama

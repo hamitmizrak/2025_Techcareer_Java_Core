@@ -1,6 +1,7 @@
 package com.hamitmizrak.tutorials.othercourse._02_week;
 
-import com.hamitmizrak.utilty.SpecialColor;
+import com.hamitmizrak.SpecialColor;
+
 
 public class _05_1_String {
 

@@ -1,6 +1,7 @@
 package com.hamitmizrak.tutorials.othercourse._03_week.access2;
 
-import com.hamitmizrak._03_week.access1.Person;
+
+import com.hamitmizrak.tutorials.othercourse._03_week.access1.Person;
 
 public class Main3 {
     // PSVM

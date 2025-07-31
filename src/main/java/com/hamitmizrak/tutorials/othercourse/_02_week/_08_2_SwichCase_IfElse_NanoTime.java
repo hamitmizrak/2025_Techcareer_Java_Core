@@ -1,7 +1,7 @@
 package com.hamitmizrak.tutorials.othercourse._02_week;
 
 
-import com.hamitmizrak.utilty.SpecialColor;
+import com.hamitmizrak.SpecialColor;
 
 public class _08_2_SwichCase_IfElse_NanoTime {
 

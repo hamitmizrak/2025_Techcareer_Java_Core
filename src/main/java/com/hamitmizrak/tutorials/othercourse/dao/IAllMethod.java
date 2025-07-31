@@ -1,6 +1,7 @@
 package com.hamitmizrak.tutorials.othercourse.dao;
 
-import com.hamitmizrak.controller.IOrder;
+
+import com.hamitmizrak.tutorials.othercourse.controller.IOrder;
 
 public interface IAllMethod extends IFile, IOrder {
 }
