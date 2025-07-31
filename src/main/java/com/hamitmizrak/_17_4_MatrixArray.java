@@ -9,7 +9,7 @@ public class _17_4_MatrixArray {
 
     public static void main(String[] args) {
         // Matrix
-        int[][] matrix= new int[3][3]; // 3*3 = 9
+        int[][] matrix= new int[3][3]; //ilk 3:satır, sonraki:3, sutun 3*3 = 9
         matrix[0][0]=1;
         matrix[0][1]=2;
         matrix[0][2]=3;
@@ -38,6 +38,7 @@ public class _17_4_MatrixArray {
             System.out.println();
         }
 
+        System.out.println("\n"+SpecialColor.BLUE+"3 boyutlu dizi örneği"+SpecialColor.RESET);
         // 3 lü for  10*10*10 = 1000
         for (int i = 0; i < 10 ; i++) {
             for (int j = 0; j < 10; j++) {
