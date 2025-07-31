@@ -96,6 +96,7 @@ public class BookApp {
 
                 // switch
                 switch (secim){
+                    // KİTAP EKLE
                     case 1 ->{
                         System.out.println("Kitap Ekle");
                         if(kitapSayisi==kutuphane.length){
@@ -117,9 +118,18 @@ public class BookApp {
                             System.out.println("Kitap eklendi");
                         }
                     }
+
+                    // KİTAP LISTESI
                     case 2 ->{}
+
+                    // KİTAP ARA
                     case 3 ->{}
-                    case 4 ->{}
+
+                    // ÇIKIŞ
+                    case 4 ->{
+                        System.out.println("Çıkılış yapılıyor");
+                        System.exit(0);
+                    }
                     default -> System.out.println("Hatalı seçim");
                 } //end switch
 
