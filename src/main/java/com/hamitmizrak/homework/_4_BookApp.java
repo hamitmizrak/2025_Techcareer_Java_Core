@@ -166,12 +166,55 @@ public class _4_BookApp {
 
     /*Kitap silme metodu */
     private void deleteBook() {
+        listBooks();
+        System.out.print(SpecialColor.YELLOW+"Silinecek Kitap ID giriniz "+SpecialColor.RESET);
+        int id= klavye.nextInt();
+        int index = findBookIndexById(id);
+        if(index==-1){
+            System.out.println("Kitap bulunamadı");
+            return;
+        }
+
+        // Silinen elemandan sonrası kaydırma
+        for (int i = index; i <bookCount-1 ; i++) {
+            library[i]=library[i+1];
+            bookCount--;
+            System.out.println("Kitap Silindi");
+        }
 
     }
 
     /*Kitap bilgilerini güncelleme metodu*/
     private void updateBook() {
+        listBooks();
+        System.out.print(SpecialColor.YELLOW+"Güncelemek istediğiniz Kitap ID giriniz "+SpecialColor.RESET);
+        int id= klavye.nextInt();
+        klavye.nextLine(); // dummpy enter
 
+        int index = findBookIndexById(id);
+        if(index==-1){
+            System.out.println("Kitap bulunamadı");
+            return;
+        }
+
+        System.out.print(SpecialColor.YELLOW+"güncellenecek Kitap adı: "+SpecialColor.RESET);
+        String title = klavye.nextLine();
+
+        System.out.print(SpecialColor.YELLOW+"güncellenecek Kitap yazarı: "+SpecialColor.RESET);
+        String author = klavye.nextLine();
+
+        System.out.print(SpecialColor.YELLOW+"güncellenecek Kitap sayfası: "+SpecialColor.RESET);
+        int pages = klavye.nextInt();
+
+        System.out.print(SpecialColor.YELLOW+"güncellenecek Kitap Türü: 0-ROMAN 1-BILIM 2-TARIH 3-TEKNOLOJI 4-Diğer"+SpecialColor.RESET);
+        int typeIndex = klavye.nextInt();
+        klavye.nextLine();
+
+        //
+        library[index].setTitle(title);
+        library[index].setAuthor(author);
+        library[index].setPages(pages);
+        library[index].setBookTypes(_2_BookTypes.BILIM);
     }
 
     /* Raporlama metodu */
